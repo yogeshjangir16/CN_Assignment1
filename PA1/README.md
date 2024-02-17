@@ -17,8 +17,8 @@ Peer:
 Compilation:
 1. In config.txt file include IP address and port number And both and be indetify by ":", (example : 172.30.21.114:8000 IP = 172.30.21.114 and Port = 8000)
 2. Compile seed node by using py -3.11 seed.py
-        - Run seeds with different port numbers based on config file entries. Only enter port NO. (In my file we have only 8000,8002,8004,8006,8008)
+- Run seeds with different port numbers based on config file entries. Only enter port NO. (In my file we have only 8000,8002,8004,8006,8008)
 3. Complie Peer node by using py -3.11 peer.py
-        - Give port number what we want and check that it's different from peer port number.
-        - for generate many peer we can repeat above steps.
+- Give port number what we want and check that it's different from peer port number.
+- for generate many peer we can repeat above steps.
 
